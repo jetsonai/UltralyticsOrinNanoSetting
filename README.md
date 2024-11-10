@@ -1,0 +1,2 @@
+# UltralyticsOrinNanoSetting
+YOLOv8
