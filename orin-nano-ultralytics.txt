@@ -1,12 +1,15 @@
 http://jetson.webredirect.org/jp5/cu114
 
+이 사이트에서 아래의 4개 파일 링크를 클릭하여 다운로드 받아주세요.
+
 opencv-contrib-python-4.10.0+6a181ce
 opencv-python-4.10.0
 torch-2.2.0-cp38-cp38-linux_aarch64.whl
 torchvision-0.17.2+c1d70fe-cp38-cp38-linux_aarch64.whl
 
+다운로드가 끝나면 다운로드 폴더로 이동합니다.
 
-http://jetson.webredirect.org/jp5/cu114/+f/26f/b26ce5df2df1e/opencv_contrib_python-4.10.0+6a181ce-cp38-cp38-linux_aarch64.whl#sha256=26fb26ce5df2df1edf4678dcbde982fe80f4f020d8848409677c959639c01252
+cd Downloads
 
 
 pip3 list | grep opencv
