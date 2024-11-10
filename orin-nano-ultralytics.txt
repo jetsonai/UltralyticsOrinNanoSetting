@@ -1,0 +1,73 @@
+http://jetson.webredirect.org/jp5/cu114
+
+opencv-contrib-python-4.10.0+6a181ce
+opencv-python-4.10.0
+torch-2.2.0-cp38-cp38-linux_aarch64.whl
+torchvision-0.17.2+c1d70fe-cp38-cp38-linux_aarch64.whl
+
+
+http://jetson.webredirect.org/jp5/cu114/+f/26f/b26ce5df2df1e/opencv_contrib_python-4.10.0+6a181ce-cp38-cp38-linux_aarch64.whl#sha256=26fb26ce5df2df1edf4678dcbde982fe80f4f020d8848409677c959639c01252
+
+
+pip3 list | grep opencv
+  104  sudo pip3 install opencv_contrib_python-4.10.0+6a181ce-cp38-cp38-linux_aarch64.whl 
+pip3 list | grep numpy
+  106  sudo pip3 uninstall numpy
+
+  108  sudo pip3 uninstall numpy==1.24.4
+  109  sudo pip3 remove numpy==1.24.4
+  110  pip3 uninstall numpy==1.24.4
+  111  pip3 list | grep numpy
+  112  pip3 uninstall numpy==1.17.4
+  113  sudo pip3 uninstall numpy==1.17.4
+  114  sudo pip3 install numpy
+  115  pip3 install numpy
+  116  pip3 uninstall numpy==1.17.4
+  117  pip3 uninstall numpy
+  118  sudo pip3 uninstall numpy
+  119  pip3 install numpy==1.24.4
+  120  pip3 list | grep numpy
+  121  python3
+  122  pip3 list | grep opencv
+  123  history
+  124  sudo pip3 install opencv_python-4.10.0-py3-none-any.whl 
+  125  python3
+  126  pip3 list | grep opencv
+  127  python3
+  128  ls
+  131  cd
+  135  ls
+  136  python3 basictest_yolov8_csi-cam.py 
+  137  python3
+  138  cd
+  139  pip3 list | grep torch
+  141  pip3 uninstall torchvision==0.91.1
+  142  pip3 list | grep torch
+  143  pip3 uninstall torchmetrics==1.5.0
+  144  pip3 uninstall torch==2.4.1
+  145  pip3 list | grep torch
+  146  cd Downloads/
+  147  ls
+  150  sudo -H pip3 install -U torch-2.2.0-cp38-cp38-linux_aarch64.whl 
+  
+sudo apt-get install libopenblas-dev
+sudo apt-get update
+
+
+  151  python3
+  152  sudo -H pip3 install -U torchvision-0.17.2+c1d70fe-cp38-cp38-linux_aarch64.whl 
+  153  python3
+  154  pip3 list | grep ultralytics
+  155  cd YOLOv8/
+  156  python3 basictest_yolov8_csi-cam.py 
+  
+  
+  sudo apt update
+
+export LD_PRELOAD=/usr/local/lib/python3.8/dist-packages/sklearn/__check_build/../../scikit_learn.libs/libgomp-d22c30c5.so.1.0.0
+ros2 run ros_latesenfu latesenfu_node 
+pip3 uninstall scikit-learn==1.3.2
+sudo -H pip3 install -U scikit-learn
+
+
+
